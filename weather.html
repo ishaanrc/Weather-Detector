@@ -1,0 +1,15 @@
+<?php
+
+  if($weather) {
+
+      echo '<div class="alert alert-success" role="alert">'.$weather.'</div>';
+
+  } else {
+
+      if ($city !="") {
+
+          echo '<div class="alert alert-danger" role="alert">Sorry, that city could not be found.</div>';
+      }
+  }
+
+?>
